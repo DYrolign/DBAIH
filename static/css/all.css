@@ -1,0 +1,73 @@
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+html {
+    user-select: none;
+}
+
+body {
+    color: rgb(0, 0, 0);
+}
+
+div {
+    margin: auto;
+    padding: auto;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    line-height: 170%;
+}
+
+/* div.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+div.about {
+    font-size: 28px;
+    position: absolute;
+    left: 50%;
+    top: 82%;
+    transform: translate(-50%, 0);
+} */
+
+a {
+    -webkit-user-drag: none;
+}
+
+a:link,
+a:visited {
+    color: #000ba3;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #0013df;
+    text-decoration: none;
+}
+
+img {
+    display: flex;
+    -webkit-user-drag: none;
+    max-width: 100%;
+}

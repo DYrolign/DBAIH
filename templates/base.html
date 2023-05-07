@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Dongbob">
+    <title> {{title}} </title>
+    <link rel="icon" href="{{ url_for('static', filename='icons/home.ico') }}" type="image/x-icon" />
+    <link href="{{ url_for('static', filename='css/all.css') }}" rel="stylesheet" />
+</head>
+
+<header>
+    <div class="container">
+        <ul>
+            <a href="/">Homepage</a>
+            <a href="/download">Download</a>
+        </ul>
+        <hr>
+    </div>
+</header>
+
+<section>
+    {% block content %}{% endblock %}
+</section>
