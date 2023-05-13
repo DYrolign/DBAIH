@@ -1,19 +1,3 @@
-.fa,
-.fas,
-.far,
-.fal,
-.fad,
-.fab {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    user-select: none;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-}
-
 html {
     user-select: none;
 }
@@ -22,14 +6,14 @@ body {
     color: rgb(0, 0, 0);
 }
 
-div {
+/* div {
     margin: auto;
     padding: auto;
     background-size: cover;
     height: auto;
     width: 100%;
     line-height: 170%;
-}
+} */
 
 /* div.bg {
     position: absolute;
