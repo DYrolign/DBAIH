@@ -15,16 +15,22 @@ def home():
 
 
 @app.route('/home')
-def homepage():
+def home_page():
     t = ' - Home - '
-    msg = 'Hello World'
+    msg = 'Guten Morgen!'
     return render_template('home.html', data=msg, title=t)
 
 
 @app.route('/download')
-def downloadpage():
+def download_page():
     t = ' - Download - '
     return render_template("download.html", title=t)
+
+
+@app.route('/gdn')
+def gdn_page():
+    t = ' - GDN - '
+    return render_template("gdn.html", title=t)
 
 
 if __name__ == '__main__':

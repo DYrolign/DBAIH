@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="body-content">
+    <p>{{title}}</p>
+    <p>Gallery</p>
+    <img class="little" src="{{ url_for('static',filename='imgs/juan.jpg')}}" alt="">
+    <img class="little" src="{{ url_for('static',filename='imgs/juan1.jpg')}}" alt="">
+    <img class="little" src="{{ url_for('static',filename='imgs/juan2.jpg')}}" alt="">
+    <img class="little" src="{{ url_for('static',filename='imgs/juan3.jpg')}}" alt="">
+</div>
+
+{% endblock %}
